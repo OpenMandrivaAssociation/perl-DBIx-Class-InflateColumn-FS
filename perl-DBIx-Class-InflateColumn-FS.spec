@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 3
 
 Summary:    FS columns resultset class
 License:    GPL+ or Artistic
@@ -15,6 +15,7 @@ BuildRequires: perl(DBD::SQLite)
 BuildRequires: perl(DBICx::TestDatabase)
 BuildRequires: perl(DBIx::Class)
 BuildRequires: perl(DBIx::Class::UUIDColumns)
+BuildRequires: perl-DBIx-Class-UUIDColumns >= 0.20.50-4
 BuildRequires: perl(ExtUtils::MakeMaker)
 BuildRequires: perl(File::Find)
 BuildRequires: perl(Path::Class)
